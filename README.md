@@ -2,7 +2,12 @@
 
 Jullie kregen de opdracht van e-commerce bedrijf Pixie om hun design te implementeren:
 
-- De website bestaat uit 5 pagina's
+- De website bestaat uit 5 pagina's:
+  - index.html
+  - products.html
+  - single-product.html
+  - about.html
+  - contact.html
 - Alle html en css bestanden staan al klaar en zijn gelinkt
 - Alle pagina's laden een algemeen css bestand in `main.css`
 - Alle pagina's laden ook een pagina specifiek css bestand in

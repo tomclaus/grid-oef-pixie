@@ -1,0 +1,13 @@
+.banner{
+    background-image: url('../images/banner-bg.jpg');
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.intro > div{
+    background-color: rgba(256,256,256,0.8);
+    width: 40%;
+    padding: 2em;
+}

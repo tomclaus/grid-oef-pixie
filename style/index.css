@@ -19,12 +19,15 @@
 
 .featured{
     padding-top: 4em;
+    padding-bottom: 4em;
 }
 
 .items{
     display: flex;
     flex-flow: row nowrap;
     margin-top: 3em;
+    overflow: scroll;
+    scrollbar-width: none;
 }
 
 .productbox{
@@ -58,3 +61,65 @@
 .product{
     display: block;
 }
+
+.blue{
+    background-color: #3A8BCD;
+    color: white;
+}
+
+.subscribe{
+    text-align: center;
+    width: 50%;
+    padding-top: 2em;
+    padding-bottom: 4em;
+}
+
+.formsub{
+    margin-top: 2em;
+}
+
+.subscribe > header > .blueline{
+    border-color:white;
+    display: block;
+    transform: translateX(50%);
+}
+
+button, input{
+    font-size: 1.6rem;
+    padding: 1em;
+    border-radius: .3em;
+}
+
+button{
+    text-transform: uppercase;
+    border: none;
+    font-weight: lighter;
+}
+
+.intro > div > button{
+    background-color: #3A8BCD;
+    color: white;
+}
+
+.formsub > input, .formsub > button{
+
+    border: 1px solid white;
+}
+
+.formsub > input{
+    width: 60%;
+    background-color: #3A8BCD;
+    color: white;
+    margin-right: 5%;
+}
+
+.formsub > input::placeholder{
+    color: white;
+}
+
+.formsub > button {
+    width: 30%;
+    background-color: white;
+    color: #3A8BCD;
+}
+

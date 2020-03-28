@@ -30,25 +30,12 @@
     scrollbar-width: none;
 }
 
-.productbox{
-    display: block;
-    border: 1px solid #AAAAAA;
-    padding: 1.5em;
-}
 
 .productbox:not(:last-of-type){
     margin-right: 1.5em;
 }
 
-.productbox > figcaption {
-    margin-top: 1em;
-    font-weight: bold;
-    line-height: 1.8em;
-}
 
-.price{
-    color: #3A8BCD;
-}
 
 .productimgbox{
     width: 250px;
@@ -62,64 +49,5 @@
     display: block;
 }
 
-.blue{
-    background-color: #3A8BCD;
-    color: white;
-}
 
-.subscribe{
-    text-align: center;
-    width: 50%;
-    padding-top: 2em;
-    padding-bottom: 4em;
-}
-
-.formsub{
-    margin-top: 2em;
-}
-
-.subscribe > header > .blueline{
-    border-color:white;
-    display: block;
-    transform: translateX(50%);
-}
-
-button, input{
-    font-size: 1.6rem;
-    padding: 1em;
-    border-radius: .3em;
-}
-
-button{
-    text-transform: uppercase;
-    border: none;
-    font-weight: lighter;
-}
-
-.intro > div > button{
-    background-color: #3A8BCD;
-    color: white;
-}
-
-.formsub > input, .formsub > button{
-
-    border: 1px solid white;
-}
-
-.formsub > input{
-    width: 60%;
-    background-color: #3A8BCD;
-    color: white;
-    margin-right: 5%;
-}
-
-.formsub > input::placeholder{
-    color: white;
-}
-
-.formsub > button {
-    width: 30%;
-    background-color: white;
-    color: #3A8BCD;
-}
 

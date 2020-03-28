@@ -169,7 +169,8 @@ footer{
     transform: translateX(50%);
 }
 
-button, input{
+button, input, textarea{
+    border: none;
     font-size: 1.6rem;
     padding: 1em;
     border-radius: .3em;

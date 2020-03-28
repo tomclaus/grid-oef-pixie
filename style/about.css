@@ -1,0 +1,13 @@
+.aboutbox > article{
+ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.aboutimg{
+    grid-row: 1 / 6 ;
+}
+
+.aboutbox{
+    padding: 5em 0 5em 0;
+}

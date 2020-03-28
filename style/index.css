@@ -22,31 +22,30 @@
     padding-bottom: 4em;
 }
 
-.items{
+/*.items{
     display: flex;
     flex-flow: row nowrap;
     margin-top: 3em;
     overflow: scroll;
     scrollbar-width: none;
+}*/
+
+.items{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1.5em;
+    margin-top: 3em;
 }
 
 
-.productbox:not(:last-of-type){
-    margin-right: 1.5em;
-}
 
 
 
-.productimgbox{
-    width: 250px;
-    height: 250px;
-    overflow: hidden;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-}
+
 .product{
     display: block;
+    width: 100%;
+    height: auto;
 }
 
 

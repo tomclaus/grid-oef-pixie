@@ -10,4 +10,13 @@
     background-color: rgba(256,256,256,0.8);
     width: 40%;
     padding: 2em;
+
+}
+
+.intro {
+    padding-top: 7em;
+}
+
+.featured{
+    padding-top: 4em;
 }

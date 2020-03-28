@@ -20,3 +20,41 @@
 .featured{
     padding-top: 4em;
 }
+
+.items{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 3em;
+}
+
+.productbox{
+    display: block;
+    border: 1px solid #AAAAAA;
+    padding: 1.5em;
+}
+
+.productbox:not(:last-of-type){
+    margin-right: 1.5em;
+}
+
+.productbox > figcaption {
+    margin-top: 1em;
+    font-weight: bold;
+    line-height: 1.8em;
+}
+
+.price{
+    color: #3A8BCD;
+}
+
+.productimgbox{
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.product{
+    display: block;
+}

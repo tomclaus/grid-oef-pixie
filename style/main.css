@@ -79,6 +79,10 @@ ul{
     color: black;
 }
 
+.pagelink:visited{
+    color: black;
+}
+
 .fullwidth{
     width: 100%;
 }

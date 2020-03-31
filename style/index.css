@@ -43,6 +43,11 @@
     }
 }
 
+.intro > div > p > a{
+    color: #3A8BCD;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 450px){
     .intro > div {
         width: 100%;

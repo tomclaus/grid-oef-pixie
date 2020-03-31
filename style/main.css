@@ -48,7 +48,7 @@ ul{
     visibility: hidden;
 }
 
-nav{
+.mainnav{
     width: 100%;
     display: block;
     display: flex;
@@ -171,7 +171,7 @@ footer{
 
 button, input, textarea{
     border: none;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     padding: 1em;
     border-radius: .3em;
 }
@@ -180,6 +180,7 @@ button{
     text-transform: uppercase;
     border: none;
     font-weight: light;
+    
 }
 
 .intro > div > button{
@@ -193,7 +194,7 @@ button{
 }
 
 .formsub > input{
-    width: 60%;
+    width: 55%;
     background-color: #3A8BCD;
     color: white;
     margin-right: 5%;
@@ -204,9 +205,26 @@ button{
 }
 
 .formsub > button {
-    width: 30%;
+    width: 35%;
     background-color: white;
     color: #3A8BCD;
+}
+
+.hbnav{
+    background-color: #3A8BCD;
+    border: none;
+    width: 3.5em;
+    height: 3em;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 1em;
+    justify-content: space-around;
+    border-radius: .3em;
+    display: none;
+}
+
+.hbnav > hr{
+    border: 1px solid white;
 }
 
 @media  screen and (max-width: 900px){
@@ -222,7 +240,26 @@ button{
         margin: 0 auto;
     }
 
-    nav{
+    .mainnav{
         display: none;
     }
+
+    .hbnav{
+        display: flex;
+    }
+
+    button, input, textarea{
+        font-size: 1.2rem;
+        padding: .7em;
+        border-radius: .3em;
+    }
+
+    footer{
+        font-size: 1.2rem;
+    }
+
+    footer > li{
+        padding: 1em;
+    }
+
 }

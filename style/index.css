@@ -23,25 +23,13 @@
     padding-bottom: 4em;
 }
 
-/*.items{
-    display: flex;
-    flex-flow: row nowrap;
-    margin-top: 3em;
-    overflow: scroll;
-    scrollbar-width: none;
-}*/
-
 .items{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    /*grid-template-columns: repeat(4,1fr);*/
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
     grid-gap: 1.5em;
     margin-top: 3em;
 }
-
-
-
-
-
 
 .product{
     display: block;
@@ -49,4 +37,8 @@
     height: auto;
 }
 
-
+@media screen and (max-width: 900px){
+    .intro > div {
+        width: 60%;
+    }
+}

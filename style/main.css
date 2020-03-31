@@ -208,3 +208,21 @@ button{
     background-color: white;
     color: #3A8BCD;
 }
+
+@media  screen and (max-width: 900px){
+    body{
+        font-size: 1.4rem;
+    }
+
+    .headbar{
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    nav{
+        display: none;
+    }
+}

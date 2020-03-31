@@ -7,9 +7,9 @@ textarea{
 }
 
 .map{
+    margin-top: 3em;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    background-color: red;
+    grid-template-columns: auto 1fr;
     grid-gap: 1em;
 }
 
@@ -21,11 +21,15 @@ textarea{
 .form{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 100% 1fr;
+    grid-template-rows: 1fr 1fr 60% 1fr;
     grid-gap: 1em;
     padding: 1em;
 }
 
 .subject, textarea{
     grid-column: span 2;
+}
+
+.contactbox{
+    padding: 5em 0 5em 0;
 }

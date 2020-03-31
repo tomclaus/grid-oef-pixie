@@ -42,3 +42,10 @@
         width: 60%;
     }
 }
+
+@media screen and (max-width: 450px){
+    .intro > div {
+        width: 100%;
+        margin: 0 auto;
+    }
+}

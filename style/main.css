@@ -263,3 +263,27 @@ button{
     }
 
 }
+
+@media screen and (max-width: 450px){
+    .headbar, .contentbox{
+        width: 90%;
+    }
+
+    .formsub{
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+        grid-gap: 1em;
+    }
+
+    .formsub > input, .formsub > button {
+        width: 100%;
+    }
+
+    .footerlist{
+        text-align: center;
+    }
+
+    .footerlist > li{
+        padding: 1em 1em 0 1em;
+    }
+}

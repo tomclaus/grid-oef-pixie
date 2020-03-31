@@ -1,14 +1,21 @@
 .aboutbox > article{
     margin-top: 3em;
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-column-gap: 1.5em;
 }
 
 .aboutimg{
+    width: 100%;
     grid-row: 1 / 6 ;
 }
 
 .aboutbox{
     padding: 5em 0 5em 0;
+}
+
+@media screen and (max-width: 900px){
+    .headbar{
+        border-bottom: 1px solid #AAAAAA;
+    }
 }

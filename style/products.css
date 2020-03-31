@@ -30,3 +30,35 @@
     margin-bottom: 4em;
     margin-top: 5em;
 }
+
+@media screen and (max-width: 900px){
+    .headbar{
+        border-bottom: 1px solid #AAAAAA;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .products{
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    .productbox:not(:last-child){
+        margin-bottom: 1.5em;
+    }
+
+    .shopbar{
+        flex-flow: column;
+        align-items: flex-start;
+    }
+
+    .categories{
+        padding-top: 1em;
+    }
+
+    .categories > li{
+        padding-left: 0;
+        padding-right: 2em;
+    }
+}

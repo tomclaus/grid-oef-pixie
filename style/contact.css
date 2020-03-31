@@ -33,3 +33,13 @@ textarea{
 .contactbox{
     padding: 5em 0 5em 0;
 }
+
+@media screen and (max-width: 900px){
+    .form{
+         grid-column-gap: 0;
+    }
+
+    .headbar{
+        border-bottom: 1px solid #AAAAAA;
+    }
+}

@@ -23,7 +23,7 @@ textarea{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 60% 1fr;
     grid-gap: 1em;
-    padding: 1em;
+  
 }
 
 .subject, textarea{
@@ -42,4 +42,28 @@ textarea{
     .headbar{
         border-bottom: 1px solid #AAAAAA;
     }
+}
+
+@media screen and (max-width: 450px){
+
+    .map{
+       display: flex;
+       flex-flow: column;
+    }
+
+    .form{
+        display: flex;
+        flex-flow: column;
+        align-items: flex-start;
+        width: 100%;
+        margin-top: 1.5em;
+    }
+
+    input, textarea{
+        margin-bottom: 1.5em;
+        border-radius: 0;
+        width: 100%;
+    }
+
+    
 }

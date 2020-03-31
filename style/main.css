@@ -163,10 +163,12 @@ footer{
     margin-top: 2em;
 }
 
-.subscribe > header > .blueline{
-    border-color:white;
+.whiteline{
+    width: 30px;
+    margin: 0 auto;
+    border: 2px solid white;
     display: block;
-    transform: translateX(50%);
+  
 }
 
 button, input, textarea{
